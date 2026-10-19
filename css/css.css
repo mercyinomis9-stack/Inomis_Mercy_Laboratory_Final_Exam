@@ -1,0 +1,32 @@
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #333333;
+}
+
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1) !important;
+}
+
+.navbar-brand {
+  letter-spacing: -0.5px;
+}
+
+.dropdown-menu {
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.dropdown-item:hover {
+  background-color: #fff5f5;
+  color: #dc3545;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}

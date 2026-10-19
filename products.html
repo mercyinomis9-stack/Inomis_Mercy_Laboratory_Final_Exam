@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Magic Whisk Bakery - Products</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/css.css">
+</head>
+<body class="bg-light">
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-dark fs-4" href="index.html">
+        <i class="bi bi-cake2 me-2 text-danger"></i>Magic Whisk
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <!-- Categories Dropdown  -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active fw-bold text-danger" href="#" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-tag-fill me-1"></i> Products
+            </a>
+            <ul class="dropdown-menu shadow-sm" aria-labelledby="productsDropdown">
+              <li><a class="dropdown-item" href="products.html">All Products</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="products.html#wedding">Wedding Cakes</a></li>
+              <li><a class="dropdown-item" href="products.html#birthday">Birthday Specials</a></li>
+              <li><a class="dropdown-item" href="products.html#cupcakes">Cupcakes</a></li>
+              <li><a class="dropdown-item" href="products.html#pastries">Pastries & Treats</a></li>
+              <li><a class="dropdown-item" href="products.html#custom">Custom Cakes</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacts.html">
+              <i class="bi bi-envelope me-1"></i> Contact Us
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Product Catalog Section -->
+  <div class="container py-5">
+    <h2 class="fw-bold mb-4 text-center">Our Bakery Collection</h2>
+
+    <!-- SECTION 1: WEDDING CAKES -->
+    <h3 id="wedding" class="fw-bold border-bottom pb-2 mb-4 text-danger"><i class="bi bi-heart-fill me-2"></i>Wedding Cakes</h3>
+    <div class="row g-4 mb-5">
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="images/wedding_cake1.avif" class="card-img-top object-fit-cover" style="height: 200px;" alt="Botanical Peony Tier">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold fs-6">Botanical Peony Tier</h5>
+            <p class="card-text text-muted small">Four-tier smooth buttercream with fresh floral accents.</p>
+            <div class="mt-auto fw-bold text-danger">Php8,000.00</div>
+            <button class="btn btn-dark btn-sm"><i class="bi bi-cart-plus me-1"></i> Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="images/wedding_cake2.avif" class="card-img-top object-fit-cover" style="height: 220px;" alt="Garden Berry Tier">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold fs-6">Garden Berry Tier</h5>
+            <p class="card-text text-muted small">Textured rustic icing layered with fresh berries and eucalyptus leaves.</p>
+            <div class="mt-auto fw-bold text-danger">Php10,000.00</div>
+            <button class="btn btn-dark btn-sm"><i class="bi bi-cart-plus me-1"></i> Buy Now!</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="images/wedding_cake3.avif" class="card-img-top object-fit-cover" style="height: 220px;" alt="Classic Pearl Rose">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold fs-6">Classic Pearl Rose</h5>
+            <p class="card-text text-muted small">Classic white fondant tiers with crimson sugar roses and pearl trim.</p>
+            <div class="mt-auto fw-bold text-danger">Php12,000.00</div>
+            <button class="btn btn-dark btn-sm"><i class="bi bi-cart-plus me-1"></i> Buy Now!</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="images/wedding_cake4.avif" class="card-img-top object-fit-cover" style="height: 220px;" alt="Blackberry Frost Single Tier">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold fs-6">Blackberry Frost Single Tier</h5>
+            <p class="card-text text-muted small">Minimalist textured white cake topped with ripe blackberries and blueberries.</p>
+            <div class="mt-auto fw-bold text-danger">Php3,500.00</div>
+            <button class="btn btn-dark btn-sm"><i class="bi bi-cart-plus me-1"></i> Buy Now!</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="images/botanical_cake.avif" class="card-img-top object-fit-cover" style="height: 220px;" alt="Eucalyptus Botanical Tier">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold fs-6">Eucalyptus Botanical Tier</h5>
+            <p class="card-text text-muted small">Hand-painted botanical greenery illustration on white fondant tiers.</p>
+            <div class="mt-auto fw-bold text-danger">Php10,000.00</div>
+            <button class="btn btn-dark btn-sm"><i class="bi bi-cart-plus me-1"></i> Buy Now!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION 2: BIRTHDAY CAKES -->
+    <h3 id="birthday" class="fw-bold border-bottom pb-2 mb-4 text-danger"><i class="bi bi-gift-fill me-2"></i>Birthday Specials</h3>
+    <div class="row g-4 mb-5">
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="images/cake1.avif" class="card-img-top object-fit-cover" style="height: 200px;" alt="Midnight Fudge Drip">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold fs-6">Midnight Fudge Drip</h5>
+            <p class="card-text text-muted small">Chocolate sponge with white frosting and rich dark ganache drip.</p>
+            <div class="mt-auto fw-bold text-danger">Php6,500.00</div>
+            <button class="btn btn-dark btn-sm"><i class="bi bi-cart-plus me-1"></i> Buy Now!</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="images/cake2.avif" class="card-img-top object-fit-cover" style="height: 200px;" alt="Raspberry Velvet">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold fs-6">Raspberry Velvet</h5>
+            <p class="card-text text-muted small">Layered red sponge with pink glaze icing and raspberries.</p>
+            <div class="mt-auto fw-bold text-danger">Php1,000.00</div>
+            <button class="btn btn-dark btn-sm"><i class="bi bi-cart-plus me-1"></i> Buy Now!</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="images/cake3.avif" class="card-img-top object-fit-cover" style="height: 200px;" alt="Birthday Chocolate Rose">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold fs-6">Birthday Chocolate Rose</h5>
+            <p class="card-text text-muted small">Piped buttercream rosettes with hand-lettered celebration script.</p>
+            <div class="mt-auto fw-bold text-danger">Php4,500.00</div>
+            <button class="btn btn-dark btn-sm"><i class="bi bi-cart-plus me-1"></i> Buy Now!</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="images/cake4.avif" class="card-img-top object-fit-cover" style="height: 200px;" alt="Triple Mousse Layer">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold fs-6">Triple Mousse Layer</h5>
+            <p class="card-text text-muted small">Three chocolate mousse gradients with pearl sprinkles.</p>
+            <div class="mt-auto fw-bold text-danger">Php3,500.00</div>
+            <button class="btn btn-dark btn-sm"><i class="bi bi-cart-plus me-1"></i> Buy Now!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION 3: CUPCAKES -->
+    <h3 id="cupcakes" class="fw-bold border-bottom pb-2 mb-4 text-danger"><i class="bi bi-cup-hot-fill me-2"></i>Cupcakes</h3>
+    <div class="row g-4 mb-5">
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="images/cup_cake1.avif" class="card-img-top object-fit-cover" style="height: 200px;" alt="Strawberry Bliss">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold fs-6">Strawberry Bliss</h5>
+            <p class="card-text text-muted small">Pink frosting with white chocolate-dipped fresh strawberry.</p>
+            <div class="mt-auto fw-bold text-danger">Php40.00</div>
+            <button class="btn btn-dark btn-sm"><i class="bi bi-cart-plus me-1"></i> Buy Now!</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="images/cup_cake2.avif" class="card-img-top object-fit-cover" style="height: 200px;" alt="Red Velvet Swirl">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold fs-6">Red Velvet Swirl</h5>
+            <p class="card-text text-muted small">Red velvet sponge topped with rich cream cheese swirl.</p>
+            <div class="mt-auto fw-bold text-danger">Php30.00</div>
+            <button class="btn btn-dark btn-sm"><i class="bi bi-cart-plus me-1"></i> Buy Now!</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="images/cup_cake3.avif" class="card-img-top object-fit-cover" style="height: 200px;" alt="Hazelnut Truffle">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold fs-6">Hazelnut Truffle</h5>
+            <p class="card-text text-muted small">Chocolate cupcake with crushed hazelnuts and Ferrero truffle.</p>
+            <div class="mt-auto fw-bold text-danger">Php50.00</div>
+            <button class="btn btn-dark btn-sm"><i class="bi bi-cart-plus me-1"></i> Buy Now!</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="images/cup_cake4.avif" class="card-img-top object-fit-cover" style="height: 200px;" alt="Black Forest Cherry">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold fs-6">Black Forest Cherry</h5>
+            <p class="card-text text-muted small">Dark chocolate base topped with vanilla frosting and stem cherry.</p>
+            <div class="mt-auto fw-bold text-danger">Php40.00</div>
+            <button class="btn btn-dark btn-sm"><i class="bi bi-cart-plus me-1"></i> Buy Now!</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="images/cup_cake5.avif" class="card-img-top object-fit-cover" style="height: 200px;" alt="Choco Sprinkle Swirl">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold fs-6">Choco Sprinkle Swirl</h5>
+            <p class="card-text text-muted small">Whipped chocolate buttercream swirl with rainbow sprinkles.</p>
+            <div class="mt-auto fw-bold text-danger">Php30.00</div>
+            <button class="btn btn-dark btn-sm"><i class="bi bi-cart-plus me-1"></i> Buy Now!</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="images/cup_cake6.avif" class="card-img-top object-fit-cover" style="height: 200px;" alt="Sunshine Citrus Cream">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold fs-6">Sunshine Citrus Cream</h5>
+            <p class="card-text text-muted small">Citrus sponge with fluffy white icing and yellow sugar crystals.</p>
+            <div class="mt-auto fw-bold text-danger">Php30.00</div>
+            <button class="btn btn-dark btn-sm"><i class="bi bi-cart-plus me-1"></i> Buy Now!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION 4: PASTRIES -->
+    <h3 id="pastries" class="fw-bold border-bottom pb-2 mb-4 text-danger"><i class="bi bi-basket-fill me-2"></i>Pastries & Treats</h3>
+    <div class="row g-4 mb-5">
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="images/pastries1_cookies.avif" class="card-img-top object-fit-cover" style="height: 200px;" alt="Choco Chunk Cookies Bowl">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold fs-6">Choco Chunk Cookies</h5>
+            <p class="card-text text-muted small">Crispy outside and chewy inside with melted dark chocolate chunks.</p>
+            <div class="mt-auto fw-bold text-danger">Php15.00</div>
+            <button class="btn btn-dark btn-sm"><i class="bi bi-cart-plus me-1"></i> Buy Now!</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="images/pastries2_brownie.avif" class="card-img-top object-fit-cover" style="height: 200px;" alt="Fudge Chocolate Brownies">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold fs-6">Fudge Chocolate Brownies</h5>
+            <p class="card-text text-muted small">Dense cocoa fudge brownie squares drizzled with chocolate ganache.</p>
+            <div class="mt-auto fw-bold text-danger">Php25.00</div>
+            <button class="btn btn-dark btn-sm"><i class="bi bi-cart-plus me-1"></i> Buy Now!</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="images/pastries3_donuts.avif" class="card-img-top object-fit-cover" style="height: 200px;" alt="Assorted Artisan Donuts">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold fs-6">Assorted Artisan Donuts</h5>
+            <p class="card-text text-muted small">Selection of glazed, strawberry-drizzled, and sprinkled artisan donuts.</p>
+            <div class="mt-auto fw-bold text-danger">Php35.00</div>
+            <button class="btn btn-dark btn-sm"><i class="bi bi-cart-plus me-1"></i> Buy Now!</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="images/pastries4_croissant.avif" class="card-img-top object-fit-cover" style="height: 200px;" alt="Golden Butter Croissants">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold fs-6">Golden Butter Croissants</h5>
+            <p class="card-text text-muted small">Flaky French butter croissants baked fresh every morning.</p>
+            <div class="mt-auto fw-bold text-danger">Php50.00</div>
+            <button class="btn btn-dark btn-sm"><i class="bi bi-cart-plus me-1"></i> Buy Now!</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="images/pastries5_macarons.avif" class="card-img-top object-fit-cover" style="height: 200px;" alt="French Macaron Platter">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold fs-6">French Macaron Platter</h5>
+            <p class="card-text text-muted small">Assorted almond macarons in pistachio, strawberry, and lemon flavors.</p>
+            <div class="mt-auto fw-bold text-danger">Php35.00</div>
+            <button class="btn btn-dark btn-sm"><i class="bi bi-cart-plus me-1"></i> Buy Now!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION 5: CUSTOM CAKE ORDER FORM -->
+    <h3 id="custom" class="fw-bold border-bottom pb-2 mb-4 text-danger"><i class="bi bi-tools me-2"></i>Customize Your Cake</h3>
+    <div class="card border-0 shadow-sm p-4 bg-white">
+      <h5 class="fw-bold mb-3">Order a Custom Cake Design</h5>
+      <p class="text-muted small">Have a specific design, color palette, or tier count in mind? Fill out your details below and our team will get in touch!</p>
+      <form>
+        <div class="row g-3">
+          <div class="col-md-6">
+            <label class="form-label small fw-bold">Occasion / Theme</label>
+            <input type="text" class="form-control" placeholder="e.g. 21st Birthday, Baby Shower, Anniversary">
+          </div>
+          <div class="col-md-6">
+            <label class="form-label small fw-bold">Preferred Flavor</label>
+            <select class="form-select">
+              <option>Chocolate Fudge</option>
+              <option>Red Velvet</option>
+              <option>Vanilla Bean</option>
+              <option>Matcha Green Tea</option>
+              <option>Strawberry Shortcake</option>
+              <option>Mango Cheesecake</option>
+            </select>
+          </div>
+          <div class="col-md-6">
+            <label class="form-label small fw-bold">Estimated Guests</label>
+            <input type="number" class="form-control" placeholder="e.g. 25">
+          </div>
+          <div class="col-md-6">
+            <label class="form-label small fw-bold">Event Date</label>
+            <input type="date" class="form-control">
+          </div>
+          <div class="col-12">
+            <label class="form-label small fw-bold">Design Description & Notes</label>
+            <textarea class="form-control" rows="3" placeholder="Describe frosting colors, toppers, or special inscriptions..."></textarea>
+          </div>
+          <div class="col-12 text-end">
+            <button type="button" class="btn btn-danger fw-bold">Submit Custom Request</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+  </div>
+
+  <footer class="bg-dark text-white py-4 mt-5">
+    <div class="container text-center">
+      <p class="mb-0 small">&copy; 2026 Magic Whisk Bakery.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
